@@ -4,6 +4,6 @@ var server = new H1Z1servers.LoginServer(
   "" // <- MongoDB address ( if blank server start in solo mode )
 );
 // To use adminClient
-//server._protocol = new H1Z1servers.LoginProtocol("LoginUdp_11");
+server._protocol = new H1Z1servers.LoginProtocol("LoginUdp_6");
 server.start();
 

@@ -5,4 +5,7 @@ var Zone = new H1Z1servers.ZoneServer(
   Base64.toUint8Array("F70IaxuU8C/w7FPXY1ibXw==")
 );
 
+// For ps2
+Zone._protocol = new H1Z1servers.H1Z1Protocol("ClientProtocol_703");
+
 Zone.start();
